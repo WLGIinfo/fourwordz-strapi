@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "website_localizations",
+  "info": {
+    "singularName": "website-localization",
+    "pluralName": "website-localizations",
+    "displayName": "Website Localization"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "translations": {
+      "type": "json"
+    }
+  }
+}
