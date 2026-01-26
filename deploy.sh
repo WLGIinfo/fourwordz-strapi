@@ -51,4 +51,4 @@ pm2 save
 
 print_success "Strapi deployment complete!"
 print_info "Status:"
-pm2 info bookzia-strapi-cms
+pm2 info fourwordz-strapi
