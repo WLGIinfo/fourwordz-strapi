@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageId": {
+      "type": "uid",
+      "required": true
+    },
+    "faqItems": {
+      "type": "component",
+      "component": "faq-items.faq-items",
+      "repeatable": true
+    }
+  }
+}
